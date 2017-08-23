@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+    <config>
+        <modules>
+            <FW_Bundle>
+                <version>1.0.0</version>
+            </FW_Bundle>
+        </modules>
+
+        <global>
+           <helpers>
+			    <fw_bundle>
+			        <class>FW_Bundle_Helper</class>
+			    </fw_bundle>
+			    <bundle>
+			        <rewrite>
+			            <data>FW_Bundle_Helper_Data</data>
+			        </rewrite>
+			    </bundle>
+			</helpers>
+        </global>
+  </config>
